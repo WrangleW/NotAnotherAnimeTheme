@@ -12,6 +12,23 @@
 
 
 
+
+
+
+/*THIS CHANGES THE COLOR OF THE UNREAD NOTIFICATION*/
+.guilds-wrapper .guilds .guild.unread:not(.selected):before, .guild-channels .channel-text.unread:not(.selected):not(.channel-muted):before {
+
+    background: #43b581; /*change this to any hex code you want*/
+
+}
+
+
+
+
+
+
+
+
 /*EDIT THIS TO CHANGE THE FRIENDS ICON IMAGE*/
 /*IF YOU DON'T WANT A CUSTOM FRIENDS ICON JUST REMOVE THIS BIT OF CODE*/
 
@@ -27,14 +44,6 @@
     background-repeat:no-repeat;
     background-position:top left;/*the positioning of your image in the icon, for example "top left" uses the top left of the image*/
 }
-
-.guilds-wrapper .guilds .guild.unread:not(.selected):before, .guild-channels .channel-text.unread:not(.selected):not(.channel-muted):before {
-
-    background: #43b581; /*this changes the unread notification color, change it to any hex code you want*/
-
-}
-
-
 
 
 
